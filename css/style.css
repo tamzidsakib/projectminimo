@@ -1,0 +1,134 @@
+/*common css start*/
+@font-face{
+	font-family: PlayfairDisplay-Black;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Black.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Bold;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Italic;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}
+@font-face{
+	font-family: PlayfairDisplay-Regular;
+	src: url(../fonts/playfair-display/PlayfairDisplay-Regular.otf);
+}
+@font-face{
+	font-family: Ubuntu-L;
+	src: url(../fonts/ubuntu/Ubuntu-L.ttf);
+}
+@font-face{
+	font-family: Inconsolata;
+	src: url(../fonts/Inconsolata/Inconsolata.otf);
+}
+body{
+margin: 0;
+padding: 0;
+}
+/*common css end*/
+
+/*header start*/
+header{
+/*border: 1px solid;*/
+	padding: 25px 0;
+
+}
+.wrapper{
+width: 85%;
+margin: 0 auto;
+/*border: 1px solid;*/
+overflow: hidden;
+}
+/*logo*/
+.logo{
+	margin-top: 12px;
+	width: 10%;
+	/*border: 1px solid;*/
+	float: left;
+
+}
+.logo img{
+	width: 100%;
+
+}
+/*menu*/
+.menu{
+	width: 60%;
+	/*border: 1px solid;*/
+	float: right;
+
+}
+.menu ul{
+	float: right;
+	
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu ul li a{
+	margin: 0 65px;
+	padding: 4px 4px;
+	display: inline-block;
+	color: #626262;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: 0.15s;
+	border-bottom:2px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom:2px solid #626262;
+}
+
+/*header end*/
+
+/*newsletter start*/
+.newsletter{
+	padding: 75px 0;
+	background-color: #f0f0f0;
+}
+.container{
+	width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h1{
+	margin-top: 0;
+	color: #333333;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 30px;
+}
+.info{
+	width: 85%;
+    margin: 0 auto;
+    padding: 5px;
+border-bottom: 2px solid;
+overflow: hidden;
+}
+.info input{
+	width: 80%;
+background-color:#f0f0f0 ;
+border-width:0px;
+border:none;
+outline:none;
+font-family: PlayfairDisplay-Regular;
+float: left;
+}
+
+.info button{
+border: 0;
+float: right;
+}
+.info button i img{
+	width: 100%;
+}
+/*newsletter end*/
